@@ -64,8 +64,9 @@ footer {
       }
       &-bottom {
         display: flex;
-        gap: 49px;
+        gap: 44px;
         padding-top: 40px;
+        margin-bottom: 40px;
         & ul li:nth-child(1) {
           color: #fff;
           font-size: 16px;

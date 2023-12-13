@@ -1,3 +1,6 @@
+body {
+  background: #1c1c1c;
+}
 main {
   width: 100%;
   min-height: 100vh;
@@ -458,5 +461,15 @@ main {
         width: 435px;
       }
     }
+  }
+}
+body {
+  background-color: black;
+  color: white;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
   }
 }
