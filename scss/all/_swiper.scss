@@ -34,12 +34,17 @@
     &::after {
         transform: scale(0.4);
     }
+    @media screen and (max-width: 834px) {
+        &::after {
+        transform: scale(0.2);
+    }
+    }
 }
 
 .swiper-button-prev {
     position: absolute !important;
     bottom: 10px !important;
-    transform: translate(58vw, 200px) scale(1);
+    transform: translate(57vw, 200px) scale(1);
     background-color: #fff;
     width: 36px;
     height: 36px;
@@ -47,6 +52,12 @@
 
     &::after {
         transform: scale(0.4);
+    }
+    @media screen and (max-width: 834px) {
+    transform: translate(83vw, 200px) scale(1);
+        &::after {
+        transform: scale(0.2);
+    }
     }
 }
 
